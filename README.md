@@ -150,4 +150,8 @@ Por outro lado, se forem pouco granulares (grandes demais), pode ocorrer um aume
 
 Por exemplo, um Microservices de pagamento (PaymentService) pode ser dividido em dois microservices, um exclusivo para conectar a gateway do Pagseguro e outro para conectar a do Paypal.
 
+![alt text](image-8.png)
+
 Um microservice de notificação (NotificatonService), por ser dividido em outros microservices (um para gmail, outro para AWS e outro para SMS), por exemplo.
+
+![alt text](image-9.png)
